@@ -62,8 +62,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Patches\Breakable_Patch.cs" />
+    <Compile Include="Patches\Cannonball_Patch.cs" />
+    <Compile Include="Patches\Coin_Patch.cs" />
+    <Compile Include="ConfigManager.cs" />
+    <Compile Include="Patches\Grenade_Patch.cs" />
+    <Compile Include="Scripts\MagnetScript.cs" />
+    <Compile Include="Patches\Magnet_Patch.cs" />
     <Compile Include="Plugin.cs" />
+    <Compile Include="Patches\Projectile_Patch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
