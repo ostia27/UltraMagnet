@@ -1,0 +1,10 @@
+{
+    "name": "UltraMagnet",
+    "description": "very strong magnet",
+    "version_number": "0.0.1",
+    "website_url": "https://github.com/RookCube/UltraMagnet",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "EternalsTeam-PluginConfigurator-1.9.0"
+    ]
+}
