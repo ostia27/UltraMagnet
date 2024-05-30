@@ -11,7 +11,7 @@ namespace UltraMagnet
         {
             if (__instance.GetComponentInParent<Harpoon>())
             {
-                __instance.gameObject.SetActive(ConfigManager.unbreakable.value);
+                __instance.gameObject.SetActive(!ConfigManager.unbreakable.value);
             }
         }
     }
