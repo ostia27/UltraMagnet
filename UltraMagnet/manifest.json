@@ -1,7 +1,7 @@
 {
     "name": "UltraMagnet",
     "description": "very strong magnet",
-    "version_number": "0.0.2",
+    "version_number": "0.2.0",
     "website_url": "https://github.com/ostia27/UltraMagnet",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100",
