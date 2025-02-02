@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using UnityEngine;
 
 namespace UltraMagnet
 {
@@ -9,7 +10,8 @@ namespace UltraMagnet
         [HarmonyPatch(typeof(Breakable), "Start")]
         private static void patch_Start(Breakable __instance)
         {
-            if (__instance.GetComponentInParent<Harpoon>())
+            Harpoon harpoon = __instance.GetComponentInParent<Harpoon>() as Harpoon;
+            if (harpoon && !harpoon.drill)
             {
                 __instance.gameObject.SetActive(!ConfigManager.unbreakable.value);
             }

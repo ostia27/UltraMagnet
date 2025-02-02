@@ -60,7 +60,7 @@ namespace UltraMagnet
                     return;
                 }
                 isOnMagnet = true;
-                rb.velocity = Vector3.RotateTowards(rb.velocity, Quaternion.Euler(0f, (float)(ConfigManager.hz.value * magnetRotationDirection), 0f) * (targetMagnet.transform.position - transform.position).normalized * rb.velocity.magnitude, float.PositiveInfinity, rb.velocity.magnitude);
+                rb.velocity = Vector3.RotateTowards(rb.velocity, Quaternion.Euler(0f, (float)(ConfigManager.spinning.value * magnetRotationDirection), 0f) * (targetMagnet.transform.position - transform.position).normalized * rb.velocity.magnitude, float.PositiveInfinity, rb.velocity.magnitude);
             }
             else
             {
