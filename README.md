@@ -13,10 +13,8 @@
   - **Harpoon & Grenade Patches:** Offer additional customization for specific game objects.
 - **Seamless Integration:** Works with BepInEx and uses Harmony to patch game behavior at runtime.
 
-## License
-
-This project is licensed under the terms specified in the repository. (Update with your license information as applicable.)
-
+## License 
+- GNU General Public License v3.0
 ## Acknowledgements
 
 - Special thanks to the developers of BepInEx, Harmony, and PluginConfigurator for providing robust tools for mod development.
