@@ -55,9 +55,9 @@ namespace UltraMagnet
             cannonballPatchPanel = new BoolField(config.rootPanel, "Cannonball", "cannonballPatchPanel", true);
             coinPatchPanel = new BoolField(config.rootPanel, "Coin", "coinPatchPanel", true);
             projectilePatchPanel = new BoolField(config.rootPanel, "Projectile", "projectilePatchPanel", true);
-            harpoonPatchPanel = new BoolField(config.rootPanel, "Harpoon", "harpoonPatchPanel", true);
+            harpoonPatchPanel = new BoolField(config.rootPanel, "Harpoon (Require restart)", "harpoonPatchPanel", true);
             grenadePatchPanel = new BoolField(config.rootPanel, "Grenade", "grenadePatchPanel", true);
-            rocketPatchPanel = new BoolField(config.rootPanel, "Rocket", "rocketPatchPanel", true);
+            rocketPatchPanel = new BoolField(config.rootPanel, "Rocket (Require restart)", "rocketPatchPanel", true);
         }
 
         private static void SetupMagnetSettings()

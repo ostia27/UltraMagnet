@@ -13,7 +13,7 @@ namespace UltraMagnet
     {
         public const string PLUGIN_GUID = "ostia.UltraMagnet";
         public const string PLUGIN_NAME = "UltraMagnet";
-        public const string PLUGIN_VERSION = "0.0.2";
+        public const string PLUGIN_VERSION = "0.2.1";
 
         private static Harmony harmony;
 
